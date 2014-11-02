@@ -12,31 +12,31 @@ class ArraySubarraysEqualSumTest {
 	
 	@Test
 	public void testContainsEqualHalves_happyPath() {
-		assertTrue(ArraySubarraysEqualSum.containsEqualHalves([3,6,4,5]));
+		assertTrue(ArraySubarraysEqualSum.containsEqualSumSubarrays([3,6,4,5]));
 	}
 	
 	@Test
 	public void testContainsEqualHalves_allZeroes() {
-		assertTrue(ArraySubarraysEqualSum.containsEqualHalves([0,0,0,0]));
+		assertTrue(ArraySubarraysEqualSum.containsEqualSumSubarrays([0,0,0,0]));
 	}
 	
 	@Test
 	public void testContainsEqualHalves_containsNegatives() {
-		assertTrue(ArraySubarraysEqualSum.containsEqualHalves([-1,4,5,-2]));
+		assertTrue(ArraySubarraysEqualSum.containsEqualSumSubarrays([-1,4,5,-2]));
 	}
 	
 	@Test
 	public void testContainsEqualHalves_allNegatives() {
-		assertTrue(ArraySubarraysEqualSum.containsEqualHalves([-1,-4,-3,-2]));
+		assertTrue(ArraySubarraysEqualSum.containsEqualSumSubarrays([-1,-4,-3,-2]));
 	}
 	
 	@Test
 	public void testContainsEqualHalves_empty() {
-		assertFalse(ArraySubarraysEqualSum.containsEqualHalves([]));
+		assertFalse(ArraySubarraysEqualSum.containsEqualSumSubarrays([]));
 	}
 	
 	@Test
 	public void testContainsEqualHalves_size1() {
-		assertFalse(ArraySubarraysEqualSum.containsEqualHalves([1]));
+		assertFalse(ArraySubarraysEqualSum.containsEqualSumSubarrays([1]));
 	}
 }

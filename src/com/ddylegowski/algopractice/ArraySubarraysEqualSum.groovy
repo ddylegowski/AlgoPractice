@@ -17,7 +17,7 @@ class ArraySubarraysEqualSum {
 	 * @param array
 	 * @return
 	 */
-	public static boolean containsEqualHalves(ArrayList<Integer> array) {
+	public static boolean containsEqualSumSubarrays(ArrayList<Integer> array) {
 		
 		int sum = UtilMethods.sumArray(array);	//O(N)
 		boolean sumOdd = sum.mod(2) == 1;
