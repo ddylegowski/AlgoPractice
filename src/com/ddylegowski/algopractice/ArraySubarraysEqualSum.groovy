@@ -12,8 +12,8 @@ import com.ddylegowski.algopractice.util.UtilMethods
 class ArraySubarraysEqualSum {
 
 	/** 
-	 * This method returns where the array can be split into 2, where the sum of each part is equal.
-	 * The complexity of this algorithm is O(N): O(N) to calculate the sum + O(N) to find where the array can be split -> O(N)
+	 * This method returns if the array can be split into 2, where the sum of each part is equal.
+	 * The time complexity of this algorithm is O(N): O(N) to calculate the sum + O(N) to find where the array can be split -> O(N)
 	 * @param array
 	 * @return
 	 */
