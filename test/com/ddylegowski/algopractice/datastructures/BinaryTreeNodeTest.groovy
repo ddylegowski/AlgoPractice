@@ -1,12 +1,10 @@
 package com.ddylegowski.algopractice.datastructures;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.*
 
-import org.junit.After;
-import org.junit.AfterClass;
-import org.junit.Before;
-import org.junit.BeforeClass;
-import org.junit.Test;
+import org.junit.Test
+
+import com.ddylegowski.algopractice.util.BinaryTreeNodeTestUtil
 
 class BinaryTreeNodeTest {
 
@@ -14,7 +12,7 @@ class BinaryTreeNodeTest {
 	public void test_fromArrayList_happyPath() {
 		def treeArrayList = [6,4,5,3,null,7,null]
 		BinaryTreeNode root = BinaryTreeNode.fromArrayList(treeArrayList);
-		assertTree(treeArrayList, root);
+		BinaryTreeNodeTestUtil.assertTree(treeArrayList, root);
 	}
 
 	@Test
@@ -35,28 +33,6 @@ class BinaryTreeNodeTest {
 		assertEquals(null, root.getRight());
 	}
 	
-	private void assertTree(ArrayList expected, BinaryTreeNode root) {
-		def queue = new LinkedList();
-		def treeAsArray = new ArrayList(expected.size);
-		
-		//level-order traversal to construct the arraylist
-		queue.push(root);
-		while(!queue.isEmpty()) {
-			BinaryTreeNode curNode = queue.poll();
-			if (curNode != null) {
-				queue.push(curNode.getLeft());
-				queue.push(curNode.getRight());
-				treeAsArray.push(curNode.getValue());
-			} else {
-				treeAsArray.push(null);
-			}
-			
-			if (treeAsArray.size == expected.size) {
-				break;
-			}
-		}
-		
-		assertEquals(expected, treeAsArray);
-	}
+
 	
 }
