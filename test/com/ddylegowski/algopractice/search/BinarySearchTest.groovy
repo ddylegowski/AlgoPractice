@@ -1,4 +1,4 @@
-package com.ddylegowski.algopractice;
+package com.ddylegowski.algopractice.search;
 
 import static org.junit.Assert.*;
 
@@ -7,6 +7,8 @@ import org.junit.AfterClass;
 import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
+
+import com.ddylegowski.algopractice.search.BinarySearch;
 
 class BinarySearchTest {
 

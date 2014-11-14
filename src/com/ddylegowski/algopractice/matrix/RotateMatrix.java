@@ -1,4 +1,4 @@
-package com.ddylegowski.algopractice;
+package com.ddylegowski.algopractice.matrix;
 
 /**
  * RotateMatrix provides a solution to the problem:

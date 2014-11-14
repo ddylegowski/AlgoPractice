@@ -1,4 +1,4 @@
-package com.ddylegowski.algopractice
+package com.ddylegowski.algopractice.search
 
 /**
  * BinarySearch is an implementation of binary search, which is an O(log N) search algorithm on sorted lists.

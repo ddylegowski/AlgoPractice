@@ -1,4 +1,4 @@
-package com.ddylegowski.algopractice;
+package com.ddylegowski.algopractice.trees;
 
 import static org.junit.Assert.*
 
@@ -9,6 +9,7 @@ import org.junit.BeforeClass
 import org.junit.Test
 
 import com.ddylegowski.algopractice.datastructures.BinaryTreeNode
+import com.ddylegowski.algopractice.trees.ReconstructTreeFromPreAndPostOrderTraversals;
 import com.ddylegowski.algopractice.util.BinaryTreeNodeTestUtil
 
 class ReconstructTreeFromPreAndPostOrderTraversalsTest {

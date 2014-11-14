@@ -1,8 +1,10 @@
-package com.ddylegowski.algopractice;
+package com.ddylegowski.algopractice.linkedlists;
 
 import static org.junit.Assert.*;
 
 import com.ddylegowski.algopractice.datastructures.LinkedListNode
+import com.ddylegowski.algopractice.linkedlists.MthToLastElementSinglyLinkedList;
+
 import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.Before;

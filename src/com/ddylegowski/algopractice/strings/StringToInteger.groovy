@@ -1,4 +1,4 @@
-package com.ddylegowski.algopractice
+package com.ddylegowski.algopractice.strings
 
 /**
  * StringToInteger solves the problem:

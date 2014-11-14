@@ -1,4 +1,4 @@
-package com.ddylegowski.algopractice
+package com.ddylegowski.algopractice.linkedlists
 
 import com.ddylegowski.algopractice.datastructures.LinkedListNode
 

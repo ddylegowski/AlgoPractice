@@ -1,4 +1,4 @@
-package com.ddylegowski.algopractice
+package com.ddylegowski.algopractice.datastructures
 
 /**
  * Interface for a DataSource that the Cache will use to retrieve data
