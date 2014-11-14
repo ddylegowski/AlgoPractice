@@ -10,7 +10,7 @@ interface DataSource {
 /**
  * LeastRecentlyUsedCache is a data structure used to simulate an LRU cache, where the least recently used
  * items are discarded when the cache is full and new items are added to the cache.
- * This implementation has a time complexity of O(N) for retrieval, even with removing the lru item and adding a new item to the cache..
+ * This implementation has a time complexity of O(1) for retrieval, even with removing the lru item and adding a new item to the cache.
  */
 class LeastRecentlyUsedCache {
 

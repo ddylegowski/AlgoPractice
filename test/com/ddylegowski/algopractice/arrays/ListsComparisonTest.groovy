@@ -1,8 +1,10 @@
-package com.ddylegowski.algopractice;
+package com.ddylegowski.algopractice.arrays;
 
 import static org.junit.Assert.*
 
 import org.junit.Test
+
+import com.ddylegowski.algopractice.arrays.ListsComparison;
 
 class ListsComparisonTest {
 

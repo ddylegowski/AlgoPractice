@@ -1,4 +1,4 @@
-package com.ddylegowski.algopractice
+package com.ddylegowski.algopractice.arrays
 
 import com.ddylegowski.algopractice.util.UtilMethods
 

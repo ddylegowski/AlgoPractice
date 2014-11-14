@@ -1,9 +1,12 @@
-package com.ddylegowski.algopractice;
+package com.ddylegowski.algopractice.arrays;
 
 import static org.junit.Assert.*
 
 import org.junit.AfterClass
 import org.junit.Test
+
+import com.ddylegowski.algopractice.arrays.ArraySubarraysEqualSum;
+import com.ddylegowski.algopractice.arrays.ArraySubarraysEqualSumSinglePass;
 
 class ArraySubarraysEqualSumSinglePassTest {
 

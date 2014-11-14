@@ -1,4 +1,4 @@
-package com.ddylegowski.algopractice
+package com.ddylegowski.algopractice.arrays
 
 /**
  * ListsComparison provides a solution to the problem:

@@ -1,4 +1,4 @@
-package com.ddylegowski.algopractice
+package com.ddylegowski.algopractice.arrays
 
 import java.util.ArrayList;
 
